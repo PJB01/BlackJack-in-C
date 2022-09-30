@@ -70,7 +70,7 @@ int main(void)
     if (menu == 'h')
     {
       printf("\nYou dont know how to play black jack? Well thats okay. The goal is to have more points \nthan the dealer but no more than 21 points. Once the cards are dealt you ");
-      printf("can either hit or stand.\n If you stand you wont be dealt anymore cards. If you hit, you're dealt another card. \nBe careful though! You dont want more than 21 points.\n");
+      printf("can either hit or stand.\nIf you stand you wont be dealt anymore cards. If you hit, you're dealt another card. \nBe careful though! You dont want more than 21 points.\n");
       continue;
     }
     else if (menu != '0')
