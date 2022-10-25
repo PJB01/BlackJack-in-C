@@ -180,7 +180,7 @@ void shuffle(int cards[], size_t n)
         cards[i] = t;
       }
     }
-    for (i = 0; i < 52; ++i)
+    for (i = 0; i < 51; ++i)
     {
       if (cards[i] > cards[i + 1])
       {
