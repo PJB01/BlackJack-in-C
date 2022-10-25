@@ -1,5 +1,5 @@
 # BlackJack-in-C
-A small command line game of black jack made in C. The code implements the use of arrays for the deck, a bubble sort to assist with shuffling and pointers for pass by reference (and many other things). The game follows the traditional rules of black jack which means the dealer will stop dealing once 17 cards have been dealt
+A small command line game of black jack programmed using C. The code implements the use of arrays for the deck, a bubble sort to assist with shuffling and pointers for pass by reference (among many other things). The game follows the traditional rules of black jack meaning the dealer will stop dealing once 17 cards have been dealt
 # FEATURES
 <pre>
 1.) Main Menu - You can start the game, read the rules, or exit the game.
