@@ -406,6 +406,16 @@ void cardImage(int cards[], int index)
     printf("|%c    |\n", cSuit);
     printf("-------\n");
   }
+  else if (checkValue(cards, index) == 10 && cFace == '0')
+  {
+    printf("-------\n");
+    printf("|    %c|\n", cSuit);
+    printf("|     |\n");
+    printf("|  %d |\n", checkValue(cards, index));
+    printf("|     |\n");
+    printf("|%c    |\n", cSuit);
+    printf("-------\n");
+  }
   else
   {
     printf("-------\n");
